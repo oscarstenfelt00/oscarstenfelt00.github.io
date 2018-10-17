@@ -100,7 +100,7 @@ footer p.top {
   padding-top: 35px;
 }
 
-@media screen and (min-width:400px) and (max-width:1366px)
+@media screen and (min-width:768px) and (max-width:1366px)
 {
   section article h1{
     font-size: 20px;
@@ -122,13 +122,18 @@ footer p.top {
 
 @media screen and (min-width:320px) and (max-width: 768px)
 {
+  body{
+    background-color: black;
+  }
 
   nav ul li a {
     font-size: 20px;
+    color: white;
   }
 
   section article h1{
     font-size: 20px;
+    color: white;
   }
 
 
