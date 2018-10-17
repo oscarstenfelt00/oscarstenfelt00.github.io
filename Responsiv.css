@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: Black;
 }
 
 nav {
@@ -26,8 +27,7 @@ nav ul li a {
   text-decoration: none;
   text-align: center;
   line-height: 100px;
-  color: black;
-  background-color: #FFD9CE;
+  color: white;
   font-family: Georgia;
   font-size: 32px;
   display: block;
@@ -51,7 +51,6 @@ figure img {
 
 section {
   width: 100%;
-  background-color: #FFD9CE;
 }
 
 section article {
@@ -65,10 +64,11 @@ section article h1 {
   font-size: 40px;
   margin-top: 0;
   padding-top: 50px;
+  color: white;
 }
 
 section article p {
-  color: black;
+  color: white;
   font-family: Georgia;
   font-size: 17px;
   line-height: 24px;
@@ -144,7 +144,7 @@ footer p.top {
 
 }
 
-@@media screen and (min-width: 320px)
+@media screen and (min-width: 320px)
 {
   section article {
     width: 90%;
